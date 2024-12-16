@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+    <title>Main</title>
+    {{ liveReloadTag }}
+    {{template "partials/general/base-header" .}}
+    {{template "partials/styles/style" .}}
+</head>
+<body>
+    {{template "partials/components/nav/nav" .}}
+    {{embed}}
+</body>
+</html>
